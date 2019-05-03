@@ -1,0 +1,35 @@
+[25-Nov-2018 06:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/f2lxl3df7zcy/public_html/admin/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/f2lxl3df7zcy/public_html/admin/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/f2lxl3df7zcy/public_html/admin/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/f2lxl3df7zcy/public_html/admin/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/f2lxl3df7zcy/public_html/admin/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/f2lxl3df7zcy/public_html/admin/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/f2lxl3df7zcy/public_html/admin/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/f2lxl3df7zcy/public_html/admin/application/controllers/site.php(6): CI_Controller->__construct()
+#7 /home/f2lxl3df7zcy/public_html/admin/system/core/CodeIgniter.php(308): Site->__construct()
+#8 /home/f2lxl3df7zcy/public_html/admin/index.php(202): require_once('/home/f2lxl3df7 in /home/f2lxl3df7zcy/public_html/admin/system/database/drivers/mysql/mysql_driver.php on line 91
+[25-Nov-2018 06:52:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/f2lxl3df7zcy/public_html/admin/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/f2lxl3df7zcy/public_html/admin/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/f2lxl3df7zcy/public_html/admin/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/f2lxl3df7zcy/public_html/admin/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/f2lxl3df7zcy/public_html/admin/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/f2lxl3df7zcy/public_html/admin/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/f2lxl3df7zcy/public_html/admin/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/f2lxl3df7zcy/public_html/admin/application/controllers/site.php(6): CI_Controller->__construct()
+#7 /home/f2lxl3df7zcy/public_html/admin/system/core/CodeIgniter.php(308): Site->__construct()
+#8 /home/f2lxl3df7zcy/public_html/admin/index.php(202): require_once('/home/f2lxl3df7 in /home/f2lxl3df7zcy/public_html/admin/system/database/drivers/mysql/mysql_driver.php on line 91
+[25-Nov-2018 06:54:38 UTC] PHP Warning:  require(application/config/constants.php): failed to open stream: No such file or directory in /home/f2lxl3df7zcy/public_html/admin/system/core/CodeIgniter.php on line 64
+[25-Nov-2018 06:54:38 UTC] PHP Fatal error:  require(): Failed opening required 'application/config/constants.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f2lxl3df7zcy/public_html/admin/system/core/CodeIgniter.php on line 64
+[25-Nov-2018 07:23:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/f2lxl3df7zcy/public_html/admin/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/f2lxl3df7zcy/public_html/admin/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/f2lxl3df7zcy/public_html/admin/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/f2lxl3df7zcy/public_html/admin/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/f2lxl3df7zcy/public_html/admin/system/core/Loader.php(1171): CI_Loader->database()
+#4 /home/f2lxl3df7zcy/public_html/admin/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/f2lxl3df7zcy/public_html/admin/system/core/Controller.php(51): CI_Loader->initialize()
+#6 /home/f2lxl3df7zcy/public_html/admin/application/controllers/site.php(6): CI_Controller->__construct()
+#7 /home/f2lxl3df7zcy/public_html/admin/system/core/CodeIgniter.php(308): Site->__construct()
+#8 /home/f2lxl3df7zcy/public_html/admin/index.php(202): require_once('/home/f2lxl3df7 in /home/f2lxl3df7zcy/public_html/admin/system/database/drivers/mysql/mysql_driver.php on line 91

@@ -33,14 +33,14 @@
                </textarea>
 </div>
 </div>
-<div class="row">
+ <div class="row">
 <div class="input-field col s12">
 <label>Description in English</label>
-               <textarea id="some-textarea" name="description_english" placeholder="Enter text ...">
+               <textarea id="some-textarea1" name="description_english" placeholder="Enter text ...">
                    <?php echo set_value('description_english');?>
                </textarea>
 </div>
-</div>
+</div> 
 
 <div class=" row">
 <div class=" input-field col s6">
